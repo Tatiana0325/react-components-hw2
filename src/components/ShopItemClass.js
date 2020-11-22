@@ -29,5 +29,5 @@ export default class ShopItemClass extends React.Component {
 }
 
 ShopItemClass.propTypes = {
-  item: PropTypes.instanceOf(ShopItemModel).isRequired,
+  item: PropTypes.instanceOf(ShopItemModels).isRequired,
 };
